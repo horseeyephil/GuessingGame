@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <link rel= 'stylesheet' type= 'text/css' href= 'style.css'>
+    <link rel= 'stylesheet' type= 'text/css' href= 'bootstrap.css'>
+    <!-- Bootstrap and CSS here-->
+  
+
+  </head>
+  <body>
+
+    <ul id='hint-list'> One of these is a winner!!!
+      <li>   oompa   </li>
+      <li>   loompa   </li>
+      <li>   doompa   </li>
+    </ul>
+
+    <div class='container-fluid'>
+      <div id='app'>
+
+        <div id='headers' class= "center">
+            <h1>Guessing Game!</h1>
+            <h2>This is a project.</h2>
+        </div>
+
+        <div id='main' class= "center">
+          <div id='input-parent'>
+            <label>Your guess please!</label>
+            <input id = 'guess-input' type = "text" >
+            <button id='submit' > Tell us! </button>
+          </div>
+
+          <div id='guesses'>
+            <ul class="guess">
+              <li>hi</li>
+              <li>hi</li>
+              <li>hi</li>
+              <li>hi</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button id='reset' class="btn-link">Reset please!</button>
+            <button id='hint' class="btn-default">I need a hint!</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div id='footer' class='center'>
+      <div class="row" id="bottomstuff">
+        <div class="col-md-4">
+          <img src='fa-logo@2x.png'></img>
+        </div>
+
+        <div class='col-md-4'>
+          <h4>Project by Vandalay</h4> 
+        </div>
+
+         
+
+        <div class="col-md-4">
+          <img src='grace_hopper_academy.png'></img>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/Users/philipgingerich/FullStack/GuessingGame/GuessingGame_functions.js"></script>
+
+  </body>
+
+</html>
